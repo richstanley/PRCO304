@@ -1,0 +1,58 @@
+1) Port Scanning
+
+-What is Port Scanning?
+
+Port scanning allows you to view which ports are open on a target system or network. A port is where information is sent or received between computer systems and networks, and the type of information varies based on the port, each identified by a number ranging from 0-65535, though the most commonly used ports are between 0-1023.
+
+-How does Port Scanning work?
+
+When you enter the IP address of the system you want to scan, a packet - which is how data is transported over networks - will be sent to each port of the target. If a port is open, the target machine will send a packet back to your machine, indicating that the port is listening, thus can receive data and is therefore open.
+
+-Why is Port Scanning used?
+
+Port scanning is useful for improving the security of systems, but can also be exploited by hackers. By having a list of open ports for a specific system or network, you know which ports can receive information. From a security point of view, you want to close off any ports that are not needed or used, as they may be a potential vulnerability. For hackers, an open port could prove to be a way into a system or network, where several malicious activities could occur, such as stealing sensitive data or disrupting the systems.
+
+
+2) Ping Sweep
+
+-What is a Ping Sweep?
+
+A ping sweep is a network scanning technique, designed to discover hosts on a specific network.
+
+-How does a Ping Sweep work?
+
+First, you will need to enter a subnet IP address, as PyScan will scan for hosts on the subnet (A subnet is small network that stems from a larger network). An example of a subnet IP address is '192.168.32'. Once entered, the scan will look for any other hosts (systems) on the subnet, ranging from 0-255 (e.g. 192.168.32.X (where X = 0-255)). This is done by sending an ICMP Echo packet to each address - if there is a host, it will send back an ICMP Echo reply packet, thus stating its existence.
+
+-Why is Ping Sweeping used?
+
+A ping sweep can be used to enhance the security of a network, or exploit it. By discovering the systems on a network, you can monitor and control who and what is on the network, thus allowing you to remove any unwanted systems that are discovered. Conversely, hackers could use a ping sweep to discover the systems on a network they are targeting, and exploit a system to gain network access.
+
+
+3) Packet Sniffing
+
+-What is Packet Sniffing?
+
+Packet sniffing is the process of collecting and analysing packets that pass through a network.
+
+-How does Packet Sniffing work?
+
+You will first need to connect to one of your computer's interfaces - an interface describes a connection between a computer and a network (e.g. eth0 is a common interface for a computer connected to the network via an ethernet cable). Once connected to an interface, it will be scanned for packets. If a packet containing a HTTP request is detected, the host and path of the packet will be recorded; if a packet contains either a username, password, a re-typed password or an email address, they will also be recorded. As the packet sniffer only detects HTTP packets, it will only work on HTTP websites, not HTTPS websites.
+
+-Why is Packet sniffing used?
+
+Packet sniffing can be used to control several aspects of the network - it can be used to analyse the bandwidth used by applications, to troubleshoot problems or to improve network security. Conversely, it could be used by Hackers to exploit vulnerable websites (e.g. HTTP websites).
+
+
+4) Wi-Fi Passwords (NOTICE: Windows machines only)
+
+-What is it?
+
+Although not a vulnerability scan, this technique will allow you to retrieve the password of any Wi-Fi network a device has ever connected to, if it has been saved.
+
+-How does it work?
+
+When a device connects to a wireless network, the SSID (the name of the network) and the password are stored, so that if you connect to the same network again, you won't need to re-login. In Windows, it is possible to view the SSID and password of every wireless network a device has connected to. This technique retrieves this information for viewing.
+
+-Why is it used?
+
+Although not a commonly used technique, this may be handy if you need to find the Wi-Fi password for a network. It could also be used maliciously by someone to gain access to a network, if they are able to use a machine connected or has been connected to it.

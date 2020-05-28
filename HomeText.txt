@@ -1,0 +1,15 @@
+Welcome to PyScan!
+
+PyScan is a vulnerability scanner designed for beginners.
+
+PyScan allows you to experiment with several different vulnerability scanning techniques first hand and when completed, you can view the results instantly!
+
+You can also learn more about these techniques in the learning section - what do they do, how they work, and why are they used
+
+If you are new to using vulnerability scanning techniques, it is recommended that you first view the learning section, to become more familiar with the techniques and their consequences, before testing them out
+
+Please also view the legal section before conducting scans - PyScan is NOT liable for the users' actions
+
+GDPR Notice: PyScan does not save any results or data processed through the application - all data is stored locally and processed on the user's machine
+
+Happy Scanning!

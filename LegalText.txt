@@ -1,0 +1,16 @@
+It is important to understand the legal implications of conducting a vulnerability scan, as PyScan is not liable for the actions of any users of the application. If a vulnerability scan is conducted without the proper permissions required, the user may be legally liable. Vulnerability scans must only be conducted with full permissions, from:
+
+-The owner/administrator of the system which the scan is conducted from
+
+-The owner/administrator of the system which is on the receiving end (the target)
+
+-The owner/administrator of the network the scan is conducted on
+
+
+If you do not abide by the aforementioned requirements, you may be prosecutable under the Computer Misuse Act 1990.
+
+Under Section 3 of the Computer Misuse Act 1990, "Unauthorised acts with intent to impair, or with recklessness as to impairing, operation of computer, etc." can result in imprisonment for a term up to 12 months, and/or a fine on summary conviction, or imprisonment for a term up to 10 years and/or a fine on conviction of indictment.
+
+Under Section 3ZA of the Computer Misuse Act 1990, "Unauthorised acts causing, or creating risk of, serious damage" can result in imprisonment for a term up to 14 years and/or a fine on conviction of indictment or, if found of creating "significant risk" to either human welfare or national security, can result in imprisonment of life and/or a fine.
+
+Under the General Data Protection Regulation 2018(GDPR), PyScan is required by law to inform users of how data is processed and stored by the application. All data that is entered by the user, processed during a scan and their subsequent results, are all conducted locally, on the machine the application is being run from. PyScan does NOT store any data on servers.
